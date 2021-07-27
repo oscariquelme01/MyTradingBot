@@ -1,0 +1,10 @@
+# Virtual env
+backend/lib/*
+backend/bin/*
+backend/pyvenv.cfg
+
+#cache
+*__pycache__*
+
+# Keys
+backend/src/constants.py 
