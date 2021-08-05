@@ -2,6 +2,9 @@
 backend/lib/*
 backend/bin/*
 backend/pyvenv.cfg
+lib/*
+bin/*
+pyvenv.cfg
 
 #cache
 *__pycache__*
