@@ -12,7 +12,8 @@ def create_csv():
     data = client.get_historical_klines(
         symbol='BTCUSDT', 
         interval=Client.KLINE_INTERVAL_1DAY, 
-        start_str='2019-01-01 00:00:00')
+        start_str='2017-01-01 00:00:00',
+        end_str='2019-01-01 00:00:00')
         
     df = pd.DataFrame(data)
     df.columns = ['Time', 

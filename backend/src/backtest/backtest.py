@@ -2,7 +2,6 @@ import backtrader as bt
 from myStrategy import smaCross
 
 import data_generator as dt
-from datetime import datetime
 
 print('Create new csv file?[Y/N]')
 create_data = ''
