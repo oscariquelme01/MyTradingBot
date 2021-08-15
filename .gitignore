@@ -9,5 +9,12 @@ pyvenv.cfg
 #cache
 *__pycache__*
 
+#data for backtest
+backend/data/*
+
 # Keys
-backend/src/constants.py 
+src/constants.py 
+Oscar.pem
+
+# Data
+data/*
